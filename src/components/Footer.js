@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Footer.css';
 import { Twitter } from '@material-ui/icons';
 import { LinkedIn } from '@material-ui/icons';
 import { GitHub } from '@material-ui/icons';
