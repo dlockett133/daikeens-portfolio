@@ -1,12 +1,20 @@
-import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import React, { useState, useEffect} from 'react';
+import {Link, useLocation} from 'react-router-dom';
 import '../styles/Navbar.css';
 import ReorderIcon from '@material-ui/icons/Reorder'
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
-
+    // logic to make button appear 
     const navbarState = () => setExpandNavbar(!expandNavbar);
+
+    // returns the location for the current route/page
+    const location = useLocation();
+
+    // changes the state of the navbar to false each time the location variable is updated
+    useEffect(() => {
+        setExpandNavbar(false);
+    }, [location])
 
   return (
     <div className='navbar' id={expandNavbar ? "open" : "close"}>
