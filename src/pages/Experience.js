@@ -12,7 +12,10 @@ function Experience() {
           date='2011 - 2016'
           iconStyle={{background: '#3e497a', color: '#fff'}}
           icon={<SchoolIcon />}
-        ></VerticalTimelineElement>
+        >
+          <h3 className='vertical-timeline-element-title'> Georgia State University, Atlanta, GA</h3>
+          <p>Film/Cinema/Video Studies/Japanese Language</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )
