@@ -189,5 +189,6 @@ sketch
 
 ###other###
 package-lock.json
+criteria/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,macos,react
