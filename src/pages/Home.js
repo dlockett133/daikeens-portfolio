@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { GitHub, LinkedIn, Email } from '@material-ui/icons';
+import '../styles/Home.css';
 
 function Home() {
   return (
