@@ -8,7 +8,11 @@ function Home() {
       <div className='about'>
         <h2> Hello World. My Name is Daikeen Lockett</h2>
         <div className='prompt'>
-          <p>Input details about me here!</p>
+          <p>As a Georgia State University graduate and software engineer, 
+            I am passionate about technology and constantly seek new challenges. 
+            I enjoy collaborating with others, love video games, and support the Lakers. 
+            In my free time, I walk my dog, cook, and go to the arcade. 
+            I am dedicated to my craft and strive for innovation in software engineering.</p>
           <LinkedIn/>
           <Email/>
           <GitHub/>
