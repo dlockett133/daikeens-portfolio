@@ -1,10 +1,12 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import '../styles/Experience.css'
 import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 import GetAppIcon from '@material-ui/icons/GetApp';
+import { green, red } from '@material-ui/core/colors';
 
 function Experience() {
   return (
@@ -69,8 +71,8 @@ function Experience() {
         </VerticalTimelineElement>
       </VerticalTimeline>
         <div className='resume'>
-          <h4>Download Resume Here</h4>
-          <button><GetAppIcon/></button>
+          <h3>Download Resume Here</h3>
+          <button><GetAppIcon fontSize='large' style={{color: 'white'}}/></button>
         </div>
     </div>
   )
