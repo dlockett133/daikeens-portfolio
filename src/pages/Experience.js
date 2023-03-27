@@ -4,12 +4,12 @@ import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 function Experience() {
   return (
     <div className='experience'> 
       <VerticalTimeline lineColor='#3e497a'>
-
         <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
           iconStyle={{background: '#3e497a', color: '#fff'}}
@@ -67,8 +67,11 @@ function Experience() {
             developing my skills in full-stack development.
           </p>
         </VerticalTimelineElement>
-
       </VerticalTimeline>
+        <div className='resume'>
+          <h4>Download Resume Here</h4>
+          <button><GetAppIcon/></button>
+        </div>
     </div>
   )
 }
