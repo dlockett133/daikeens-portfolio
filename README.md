@@ -10,7 +10,9 @@ As a web developer, I understand the importance of having a platform to showcase
 
 Thank you for visiting my portfolio, and I hope you enjoy exploring my projects!
 
-View Site [Here]()
+![My portfolio](./src/assets/images/portfolio-screenshot.png)
+
+View Site [Here](http://dlockett133.github.io/daikeens-portfolio)!
 
 ## License
 

@@ -12,10 +12,10 @@ function Home() {
         <h2> Hello World. My Name is Daikeen Lockett</h2>
         <div className='prompt'>
           <p>As a Georgia State University graduate and software engineer, 
-            I am passionate about technology and constantly seek new challenges. 
-            I enjoy collaborating with others, love video games, and support the Lakers. 
-            In my free time, I walk my dog, cook, and go to the arcade. 
-            I am dedicated to my craft and strive for innovation in software engineering.</p>
+            I am passionate about technology and constantly seeking new challenges. 
+            I love collaborating with others, video games, and supporting my Lakers (WOHOO!). 
+            In my free time, if I am not stuck to a keyboard, I enjoy walking my dog, cooking, and going to the arcade. 
+            </p>
           <LinkedIn/>
           <Email/>
           <GitHub/>

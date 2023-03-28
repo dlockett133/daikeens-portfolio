@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daikeens-portfolio/static/css/main.92e51085.css",
-    "main.js": "/daikeens-portfolio/static/js/main.35dbbec3.js",
+    "main.js": "/daikeens-portfolio/static/js/main.b5ba5da4.js",
     "static/js/787.1ed0c42c.chunk.js": "/daikeens-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/WeatherMann-screenshot.png": "/daikeens-portfolio/static/media/WeatherMann-screenshot.e8ba39e9a1bdf5a6369c.png",
     "static/media/weatherOrNot-screenshot.png": "/daikeens-portfolio/static/media/weatherOrNot-screenshot.71b4cbcbee79583654c0.png",
@@ -9,11 +9,11 @@
     "static/media/resume.pdf": "/daikeens-portfolio/static/media/resume.b6766e9db51e7f5cfe71.pdf",
     "index.html": "/daikeens-portfolio/index.html",
     "main.92e51085.css.map": "/daikeens-portfolio/static/css/main.92e51085.css.map",
-    "main.35dbbec3.js.map": "/daikeens-portfolio/static/js/main.35dbbec3.js.map",
+    "main.b5ba5da4.js.map": "/daikeens-portfolio/static/js/main.b5ba5da4.js.map",
     "787.1ed0c42c.chunk.js.map": "/daikeens-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92e51085.css",
-    "static/js/main.35dbbec3.js"
+    "static/js/main.b5ba5da4.js"
   ]
 }
