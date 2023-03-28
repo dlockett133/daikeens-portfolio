@@ -16,7 +16,7 @@ function App() {
           {/* Route tag takes in a path argument that defines the route and the element argument that renders the component when the route is called */}
           <Route path="/daikeens-portfolio/" element={<Home/>}/>
           <Route path="/daikeens-portfolio/projects" element={<Projects/>}/>
-          <Route path="/daikeens-portfolio/project/:id" element={<ProjectDisplay/>}/>
+          <Route path="/daikeens-portfolio/projects/:id" element={<ProjectDisplay/>}/>
           <Route path="/daikeens-portfolio/experience" element={<Experience/>}/>
         </Routes>
         <Footer />
