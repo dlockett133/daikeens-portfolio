@@ -1,11 +1,14 @@
 import React from 'react';
 import { GitHub, LinkedIn, Email } from '@material-ui/icons';
+import portrait from '../assets/images/my-headshot.jpg';
+
 import '../styles/Home.css';
 
 function Home() {
   return (
     <div className='home'>
       <div className='about'>
+        <img className='portrait' src={portrait} alt="Portrait of Daikeen Lockett"/>
         <h2> Hello World. My Name is Daikeen Lockett</h2>
         <div className='prompt'>
           <p>As a Georgia State University graduate and software engineer, 

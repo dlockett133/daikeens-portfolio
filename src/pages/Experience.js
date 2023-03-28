@@ -6,6 +6,11 @@ import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 import GetAppIcon from '@material-ui/icons/GetApp';
+import resume from '../assets/resume.pdf';
+
+const openResume = () => {
+  window.open(resume);
+};
 
 function Experience() {
   return (
@@ -71,7 +76,7 @@ function Experience() {
       </VerticalTimeline>
         <div className='resume'>
           <h3>Download Resume Here</h3>
-          <button><GetAppIcon fontSize='large' style={{color: 'white'}}/></button>
+          <button onClick={openResume}><GetAppIcon fontSize='large' style={{color: 'white'}}/></button>
         </div>
     </div>
   )
