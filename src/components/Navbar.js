@@ -25,9 +25,9 @@ function Navbar() {
         </div>
         <div className='links'>
             {/* Using Link element from 'react-router-dom', you pass a prop call 'to' that you give the route you want the link to go to */}
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/experience">Experience</Link>
+            <Link to="/daikeens-portfolio/">Home</Link>
+            <Link to="/daikeens-portfolio/projects">Projects</Link>
+            <Link to="/daikeens-portfolio/experience">Experience</Link>
         </div>
     </div>
   )

@@ -14,10 +14,10 @@ function App() {
         <Navbar/>
         <Routes>
           {/* Route tag takes in a path argument that defines the route and the element argument that renders the component when the route is called */}
-          <Route path="/" element={<Home/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/project/:id" element={<ProjectDisplay/>}/>
-          <Route path="/experience" element={<Experience/>}/>
+          <Route path="/daikeens-portfolio/" element={<Home/>}/>
+          <Route path="/daikeens-portfolio/projects" element={<Projects/>}/>
+          <Route path="/daikeens-portfolio/project/:id" element={<ProjectDisplay/>}/>
+          <Route path="/daikeens-portfolio/experience" element={<Experience/>}/>
         </Routes>
         <Footer />
       </Router>
