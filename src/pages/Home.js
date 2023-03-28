@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub, LinkedIn, Email } from '@material-ui/icons';
+import { GitHub, LinkedIn, Email } from '@mui/icons-material/';
 import portrait from '../assets/images/my-headshot.jpg';
 
 import '../styles/Home.css';

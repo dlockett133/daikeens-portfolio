@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { projectList } from '../helpers/ProjectList';
-import GitHubIcon from "@material-ui/icons/GitHub";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {

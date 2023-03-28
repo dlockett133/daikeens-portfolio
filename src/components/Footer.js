@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
-import { Twitter, LinkedIn, GitHub, Email } from '@material-ui/icons';
+import { Twitter, LinkedIn, GitHub, Email } from '@mui/icons-material';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Footer() {
   return (

@@ -2,10 +2,10 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../styles/Experience.css'
-import SchoolIcon from '@material-ui/icons/School'
-import WorkIcon from '@material-ui/icons/Work'
-import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
-import GetAppIcon from '@material-ui/icons/GetApp';
+import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from '@mui/icons-material/Work'
+import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
+import GetAppIcon from '@mui/icons-material/GetApp';
 import resume from '../assets/resume.pdf';
 
 const openResume = () => {
