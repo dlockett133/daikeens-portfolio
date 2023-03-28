@@ -7,22 +7,14 @@ export const projectList = [
     {
         name: "WeatherMann",
         image: Project1,
-        skills: "HTML, CSS, JavaScript, JQuery, Moment.JS, BootStrap, Server-Side APIs: OpenWeather,UnSplash and Spotify"
+        skills: "HTML, CSS, JavaScript, JQuery, Moment.JS, BootStrap, Server-Side APIs: OpenWeather,UnSplash and Spotify",
+        repo: "https://github.com/MontineSproul/the-a-team"
     },
     {
         name: "weatherOrNot",
         image: Project2,
-        skills: "HTML, CSS, JavaScript, BootStrap, Node, Express, Sequelize, JawsDB, MySQL, Heroku, Server-Side APIs: OpenWeather"
+        skills: "HTML, CSS, JavaScript, BootStrap, Node, Express, Sequelize, JawsDB, MySQL, Heroku, Server-Side APIs: OpenWeather",
+        repo: "https://github.com/maxxAbow/weatherOrNot"
 
-    },
-    {
-        name: "Project-3",
-        image: Project3,
-        skill: ""
-    },
-    {
-        name: "Project-4",
-        image: Project4,
-        skill: ""
     }
 ];

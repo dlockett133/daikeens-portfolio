@@ -6,7 +6,6 @@ import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 import GetAppIcon from '@material-ui/icons/GetApp';
-// import { green, red } from '@material-ui/core/colors';
 
 function Experience() {
   return (
