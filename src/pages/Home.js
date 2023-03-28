@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GitHub, LinkedIn, Email } from '@mui/icons-material/';
 import portrait from '../assets/images/my-headshot.jpg';
-
 import '../styles/Home.css';
 
 function Home() {
@@ -15,10 +15,10 @@ function Home() {
             I am passionate about technology and constantly seeking new challenges. 
             I love collaborating with others, video games, and supporting my Lakers (WOHOO!). 
             In my free time, if I am not stuck to a keyboard, I enjoy walking my dog, cooking, and going to the arcade. 
-            </p>
-          <LinkedIn/>
-          <Email/>
-          <GitHub/>
+          </p>
+          <Link to="https://www.linkedin.com/in/daikeen-lockett/" target="_blank" rel="noopener noreferrer"><LinkedIn /></Link>
+          <a href="mailto: daikeen_lockett@yahoo.com"><Email /></a>
+          <Link to="https://github.com/dlockett133" target="_blank" rel="noopener noreferrer"><GitHub /></Link>
         </div>
       </div>
       <div className='skills'>
