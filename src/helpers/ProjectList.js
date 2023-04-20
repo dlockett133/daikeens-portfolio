@@ -1,13 +1,15 @@
-import Project1 from '../assets/images/WeatherMann-screenshot.png';
+import Project1 from '../assets/images/Folx-Homepage.png';
 import Project2 from '../assets/images/weatherOrNot-screenshot.png';
+import Project3 from '../assets/images/WeatherMann-screenshot.png';
 
 export const projectList = [
     {
-        name: "WeatherMann",
+        name: "Folx",
         image: Project1,
-        skills: "HTML, CSS, JavaScript, JQuery, Moment.JS, BootStrap, Server-Side APIs: OpenWeather,UnSplash and Spotify",
-        repo: "https://github.com/MontineSproul/the-a-team",
-        deployedLink: "https://montinesproul.github.io/the-a-team/"
+        skills: "React, HTML, CSS, JavaScript, BootStrap, Node, Express, MongoDB, MongoDB Atlas, Mongoose, Heroku, Three.JS",
+        repo: "https://github.com/maxxAbow/Folx",
+        deployedLink: "https://folx-project-three.herokuapp.com/"
+
     },
     {
         name: "weatherOrNot",
@@ -16,5 +18,12 @@ export const projectList = [
         repo: "https://github.com/maxxAbow/weatherOrNot",
         deployedLink: "https://diamonddougs.herokuapp.com/"
 
+    },
+    {
+        name: "WeatherMann",
+        image: Project3,
+        skills: "HTML, CSS, JavaScript, JQuery, Moment.JS, BootStrap, Server-Side APIs: OpenWeather,UnSplash and Spotify",
+        repo: "https://github.com/MontineSproul/the-a-team",
+        deployedLink: "https://montinesproul.github.io/the-a-team/"
     }
 ];
