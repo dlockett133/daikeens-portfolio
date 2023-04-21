@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Works() {
+const Works = () => {
   return (
     <div>Works</div>
   )

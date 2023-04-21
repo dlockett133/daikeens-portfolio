@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Earth() {
+const Earth = () => {
   return (
     <div>Earth</div>
   )

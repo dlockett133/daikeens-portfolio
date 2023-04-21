@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Tech() {
+const Tech = () => {
   return (
     <div>Tech</div>
   )

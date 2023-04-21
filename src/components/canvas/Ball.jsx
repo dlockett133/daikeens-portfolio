@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Ball() {
+const Ball = () => {
   return (
     <div>Ball</div>
   )

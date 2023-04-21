@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Stars() {
+const Stars = () => {
   return (
     <div>Stars</div>
   )
