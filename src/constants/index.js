@@ -1,7 +1,7 @@
 import {
-    mobile,
+    react,
+    game,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -46,16 +46,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "ReactJS Developer",
+      icon: react,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Arcade Gamer",
+      icon: game,
     },
   ];
   
