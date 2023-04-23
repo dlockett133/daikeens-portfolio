@@ -17,9 +17,9 @@ import {
     docker,
     calendly,
     protools,
-    carrent,
-    jobit,
-    tripguide,
+    folx,
+    weatherOrNot,
+    weatherMann,
     threejs,
   } from "../assets";
   
@@ -140,9 +140,8 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Folx",
+      description: "Discover a diverse and inclusive foodie community on Folx, the social media app for food enthusiasts. Follow other foodies, share your favorite recipes and cooking tips, and build your own community. Join us now to explore the delicious world of cuisine together!",      
       tags: [
         {
           name: "react",
@@ -153,54 +152,57 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "three.js",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: folx,
+      source_code_link: "https://github.com/maxxAbow/Folx",
+      deploy_link: "https://folx-project-three.herokuapp.com/",
     },
     {
-      name: "Job IT",
+      name: "Weather Or Not",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A calendar web application with the weekly weather forecast.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CRUD",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "OpenWeatherAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: weatherOrNot,
+      source_code_link: "https://github.com/maxxAbow/weatherOrNot",
+      deploy_link: "https://diamonddougs.herokuapp.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Weather Mann",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Have you ever been sitting at home studying on a rainy day and wished you had the perfect playlist? WeatherMann is here to match all your weather vibes. Think a Walkman for the weather! Upon visiting the page, type in the city of your choosing. This search will then result in displaying the current weather for your city as well as playing a songlist of warmer or winter tunes to coincide with the outdoor temperatures.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "spotify",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "OpenWeatherAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: weatherMann,
+      source_code_link: "https://github.com/MontineSproul/the-a-team",
+      deploy_link: "https://montinesproul.github.io/the-a-team/",
     },
   ];
   

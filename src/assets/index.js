@@ -27,9 +27,9 @@ import protools from "./company/protools.png";
 import calendly from "./company/calendly.png";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import folx from "./folx.png";
+import weatherOrNot from "./weatherOrNot.png";
+import weatherMann from "./weatherMann.png";
 
 export {
   logo,
@@ -55,9 +55,9 @@ export {
   threejs,
   protools,
   calendly,
-  carrent,
-  jobit,
-  tripguide,
+  folx,
+  weatherOrNot,
+  weatherMann,
   react,
   game
 };
