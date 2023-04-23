@@ -114,27 +114,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Daikeen is an extremely hard-working and dedicated developer who always goes the extra mile to ensure his work is thorough and of the highest quality. His outgoing personality and enthusiasm for web development make him a great team player and leader.",
+      name: "David Mackey",
+      designation: "Teammate and Collaborator",
+      company: "on Folx and WeatherOrNot Applications",
+      image: "https://avatars.githubusercontent.com/u/102687673?v=4",
     },
   ];
   
