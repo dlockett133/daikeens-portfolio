@@ -11,6 +11,12 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import {GetApp} from '@mui/icons-material';
+import resume from '../assets/resume.pdf'
+
+const openResume = () => {
+  window.open(resume);
+};
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -78,6 +84,10 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
+        <div className='resume flex flex-col items-center'>
+          <h3>Download Resume Here</h3>
+          <button onClick={openResume} ><GetApp fontSize='large' style={{color: 'white'}}/></button>
+        </div>
       </div>
     </>
   );
