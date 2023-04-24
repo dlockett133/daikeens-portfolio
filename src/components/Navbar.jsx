@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';//use to navigate to other parts of our page
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close, colorLogo} from '../assets';
+import {logo, menu, close} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -31,7 +31,7 @@ const Navbar = () => {
           <img src={logo} alt='Logo' className='w-9 h-9 object-contain bg-white rounded-[20px]'/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Daikeen &nbsp;
-            <span className='sm:block hidden'> | MERN Stack Developer</span>
+            <span className='sm:block hidden'> | Software Engineer </span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

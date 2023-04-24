@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software developer with experience in the Javascript coding language, the Mern stack, and dabbling with Three.js. 
+        I'm a software engineer with experience in the Javascript coding language, the Mern stack, and dabbling with Three.js. 
         I have a passion for learning and enjoy collaborating with others to create/solve problems.
         Outside of work, I love to cook and try new restaruants, go to the arcade, and take my dog for walks.
       </motion.p>

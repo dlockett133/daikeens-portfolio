@@ -85,8 +85,8 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
         <div className='resume flex flex-col items-center'>
-          <h3>Download Resume Here</h3>
-          <button onClick={openResume} ><GetApp fontSize='large' style={{color: 'white'}}/></button>
+          <h3 className='text-white text-[20px] font-bold'>Download Resume Here</h3>
+          <button onClick={openResume} className="border-4 p-2 rounded-[30px]"><GetApp fontSize='large' style={{color: 'white'}}/></button>
         </div>
       </div>
     </>
