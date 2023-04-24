@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deploy_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -48,7 +49,12 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 
+            className='text-white font-bold text-[24px] cursor-pointer'
+            onClick={() => window.open(deploy_link, "_blank")}
+          >
+            {name}
+          </h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
@@ -83,7 +89,7 @@ const Works = () => {
           The following projects serve as real-life demonstrations of my skills and expertise, 
           providing insight into my ability to solve complex problems, work with various technologies, 
           collaborate within a team, and manage projects proficiently. Each project includes a brief overview, 
-          along with links to its respective code repositories and live demos.
+          along with links to its respective code repositories (via the github logos) and live demos (via clicking the titles of the projects).
         </motion.p>
       </div>
 
