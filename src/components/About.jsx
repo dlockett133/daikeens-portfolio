@@ -55,7 +55,7 @@ const About = () => {
 
       <Tilt className='xs:w-[250px] w-full'>
         <motion.div
-        variants={fadeIn("left", "spring", 0.5, 0.75)}
+        variants={fadeIn("left", "spring", 0.1, 0.75)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
         >
           <img src={portrait} alt='portrait' className='rounded-[20px]'/>

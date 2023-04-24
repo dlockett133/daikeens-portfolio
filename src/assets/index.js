@@ -1,3 +1,4 @@
+import colorLogo from "./color-logo.png";
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -33,6 +34,7 @@ import weatherOrNot from "./weatherOrNot.png";
 import weatherMann from "./weatherMann.png";
 
 export {
+  colorLogo,
   logo,
   backend,
   creator,
