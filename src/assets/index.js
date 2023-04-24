@@ -26,6 +26,7 @@ import threejs from "./tech/threejs.svg";
 import protools from "./company/protools.png";
 import calendly from "./company/calendly.png";
 
+import portrait from "./portrait.jpg";
 
 import folx from "./folx.png";
 import weatherOrNot from "./weatherOrNot.png";
@@ -59,5 +60,6 @@ export {
   weatherOrNot,
   weatherMann,
   react,
-  game
+  game,
+  portrait
 };

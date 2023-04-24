@@ -6,6 +6,7 @@ import {styles} from '../styles'
 import {services} from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import { portrait } from '../assets'
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -42,7 +43,8 @@ const About = () => {
       <p className={styles.sectionSubText}>Introduction</p>
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
-    <motion.p
+    <div className='flex flex-wrap'>
+      <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
@@ -50,6 +52,16 @@ const About = () => {
         I have a passion for learning and enjoy collaborating with others to create/solve problems.
         Outside of work, I love to cook and try new restaruants, go to the arcade, and take my dog for walks.
       </motion.p>
+
+      <Tilt className='xs:w-[250px] w-full'>
+        <motion.div
+        variants={fadeIn("left", "spring", 0.5, 0.75)}
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        >
+          <img src={portrait} alt='portrait' className='rounded-[20px]'/>
+        </motion.div>
+      </Tilt>
+    </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
