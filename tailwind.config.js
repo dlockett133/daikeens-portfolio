@@ -20,6 +20,10 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        "city-pattern": "url('/src/assets/city.gif')",
+        "mario-pattern": "url('/src/assets/mario.gif')",
+        "mario2-pattern": "url('/src/assets/mario2.gif')",
+        "newbg-pattern": "url('/src/assets/newbg.gif')",
       },
     },
   },
