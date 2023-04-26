@@ -48,9 +48,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software engineer with experience in the Javascript coding language, the Mern stack, and dabbling with Three.js. 
-        I have a passion for learning and enjoy collaborating with others to create/solve problems.
-        Outside of work, I love to cook and try new restaruants, go to the arcade, and take my dog for walks.
+        As a software engineer, I thrive in collaborative environments where creativity and teamwork are key.
+        My experience in the Javascript coding language and the MERN stack has allowed me to create innovative applications 
+        that are both user-friendly and aesthetically pleasing. 
+        I also enjoy experimenting with Three.js to bring a unique visual experience to my projects.
+        <br/>
+        But my interests don't stop there. Outside of work, you can find me exploring new restaurants and cuisines, 
+        challenging my friends at the arcade, and taking my dog for long walks.
+        <br/>
+        If you're looking for a teammate who is driven, collaborative, and always willing to learn, then I'm your person. Let's create something amazing together!
       </motion.p>
 
       <Tilt className='xs:w-[250px] w-full'>

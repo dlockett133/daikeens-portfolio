@@ -147,7 +147,7 @@ import {
     {
       name: "Weather Or Not",
       description:
-        "A calendar web application with the weekly weather forecast.",
+        "A calendar web application in which you are able to create an account and dynamically plan and save events for the month. There is also a 5-day weather forecast implemented into the calendar so you are never caught off guard on a rainy day!",
       tags: [
         {
           name: "html",

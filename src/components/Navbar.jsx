@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';//use to navigate to other parts of our pa
 import {styles} from '../styles';
 import {navLinks} from '../constants';
 import {logo, menu, close} from '../assets';
+import { GitHub, LinkedIn, Twitter } from '@mui/icons-material';
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -34,6 +35,26 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Software Engineer </span>
           </p>
         </Link>
+        <div className='sm:flex flex-row gap-10'>
+          <Link to="https://github.com/dlockett133" target="_blank" rel="noopener noreferrer">
+            <button>
+              <GitHub fontSize='large'/> 
+            </button>
+          </Link>
+
+          <Link to="https://www.linkedin.com/in/daikeen-lockett/" target="_blank" rel="noopener noreferrer">
+            <button>
+              <LinkedIn fontSize='large'/>
+            </button>
+          </Link>
+
+          <Link to="https://twitter.com/Lupnthe3rdDay" target="_blank" rel="noopener noreferrer">
+            <button>
+              <Twitter fontSize='large'/>
+            </button>
+          </Link>
+
+        </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => 
             <li 
