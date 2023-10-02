@@ -26,6 +26,7 @@ import threejs from "./tech/threejs.svg";
 
 import protools from "./company/protools.png";
 import calendly from "./company/calendly.png";
+import greenwood from "./company/greenwood.png"
 
 import portrait from "./portrait.jpg";
 
@@ -58,6 +59,7 @@ export {
   threejs,
   protools,
   calendly,
+  greenwood,
   folx,
   weatherOrNot,
   weatherMann,

@@ -8,6 +8,8 @@ import { GitHub, LinkedIn, Twitter } from '@mui/icons-material';
 const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
+  const [showTwitter, setShowTwitter] = useState(false)
+  
   return (
     <nav 
     id='nav'
@@ -36,7 +38,7 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Software Engineer </span>
           </p>
         </Link>
-        <div className='sm:flex flex-row gap-10'>
+        <div className='sm:flex flex-row gap-5'>
           <Link to="https://github.com/dlockett133" target="_blank" rel="noopener noreferrer">
             <button>
               <GitHub fontSize='large'/> 
@@ -49,11 +51,11 @@ const Navbar = () => {
             </button>
           </Link>
 
-          <Link to="https://twitter.com/Lupnthe3rdDay" target="_blank" rel="noopener noreferrer">
+          { showTwitter && <Link to="https://twitter.com/Lupnthe3rdDay" target="_blank" rel="noopener noreferrer">
             <button>
               <Twitter fontSize='large'/>
             </button>
-          </Link>
+          </Link>}
 
         </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

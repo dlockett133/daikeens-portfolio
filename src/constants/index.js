@@ -17,6 +17,7 @@ import {
     docker,
     calendly,
     protools,
+    greenwood,
     folx,
     weatherOrNot,
     weatherMann,
@@ -104,9 +105,19 @@ import {
       company_name: "Calendly",
       icon: calendly,
       iconBg: "#E6DEDD",
-      date: "Nov 2021 - Present",
+      date: "Nov 2021 - Jun 2022",
       points: [
         "As a Software Specialist at Calendly, I played a crucial role in ensuring our customers had a seamless scheduling experience by utilizing various tools such as Zendesk, SuperAdmin, Twilio, and SendGrid. This contributed to Calendly's success and recognition as one of Forbes America's Best Startup Employers for two consecutive years."
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Greenwood",
+      icon: greenwood,
+      iconBg: "#E6DEDD",
+      date: "Jun 2022 - Present",
+      points: [
+        "As a Software Engineer at Greenwood, I specialized in React.js for front-end development. My role involved creating and maintaining features for our web application, implementing feature flags with LaunchDarkly, and developing personalized customer flows based on subscription tiers. I thrived in an Agile environment, collaborating closely with cross-functional teams to deliver efficient and user-centric solutions"
       ],
     }
   ];
@@ -119,6 +130,14 @@ import {
       designation: "Teammate and Collaborator",
       company: "on Folx and WeatherOrNot Applications",
       image: "https://avatars.githubusercontent.com/u/102687673?v=4",
+    },
+    {
+      testimonial:
+        "I had the pleasure of studying and working with Daikeen at the GT coding bootcamp and Calendly. Daikeen's exceptional work ethic, passion for coding, and teamwork skills shine during group projects. He's always ready to assist and ensure everyone's success. Daikeen's expertise in the MERN stack enables him to create dynamic web apps effectively. He'd be a valuable addition to any web development team, known for his positivity and dedication. I wholeheartedly recommend Daikeen!",
+      name: "Sarah Wattles",
+      designation: "Coworker at",
+      company: "Calendly",
+      image: "https://media.licdn.com/dms/image/C5103AQE9nls3RFiYng/profile-displayphoto-shrink_400_400/0/1516746402401?e=1701907200&v=beta&t=nwZIoV-j3Axs_yGrT-O57jAhdR0r_Xr1dMtAuc0M528",
     },
   ];
   
