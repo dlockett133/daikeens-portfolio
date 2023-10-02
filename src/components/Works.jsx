@@ -51,7 +51,7 @@ const ProjectCard = ({
         <div className='mt-5'>
           <h3 
             className='text-white font-bold text-[24px] cursor-pointer'
-            onClick={() => window.open(deploy_link, "_blank")}
+            onClick={() => window.open(source_code_link, "_blank")}
           >
             {name}
           </h3>
@@ -89,7 +89,7 @@ const Works = () => {
           The following projects serve as real-life demonstrations of my skills and expertise, 
           providing insight into my ability to solve complex problems, work with various technologies, 
           collaborate within a team, and manage projects proficiently. Each project includes a brief overview, 
-          along with links to its respective code repositories (via the github logos) and live demos (via clicking the titles of the projects).
+          along with links to its respective code repositories via the github logos or clicking the titles of the projects.
         </motion.p>
       </div>
 
