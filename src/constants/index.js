@@ -37,6 +37,10 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "resume",
+      title: "Resume",
+    },
   ];
   
   const services = [
@@ -133,7 +137,7 @@ import {
     },
     {
       testimonial:
-        "I had the pleasure of studying and working with Daikeen at the GT coding bootcamp and Calendly. Daikeen's exceptional work ethic, passion for coding, and teamwork skills shine during group projects. He's always ready to assist and ensure everyone's success. Daikeen's expertise in the MERN stack enables him to create dynamic web apps effectively. He'd be a valuable addition to any web development team, known for his positivity and dedication. I wholeheartedly recommend Daikeen!",
+        "I had the pleasure of working with Daikeen at Calendly. Daikeen's exceptional work ethic, passion for coding, and teamwork skills shine during group projects. He's always ready to assist and ensure everyone's success. Daikeen's expertise in the MERN stack enables him to create dynamic web apps effectively. He'd be a valuable addition to any web development team, known for his positivity and dedication. I wholeheartedly recommend Daikeen!",
       name: "Sarah Wattles",
       designation: "Coworker at",
       company: "Calendly",

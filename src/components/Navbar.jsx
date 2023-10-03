@@ -5,6 +5,12 @@ import {navLinks} from '../constants';
 import {logo, menu, close} from '../assets';
 import { GitHub, LinkedIn, Twitter } from '@mui/icons-material';
 
+import resume from '../assets/resume.pdf'
+
+const openResume = () => {
+  window.open(resume);
+};
+
 const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
@@ -68,7 +74,13 @@ const Navbar = () => {
                 : "text-secondary"
               } hover:text-white text-[18px]
               font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
+              onClick={() => {
+                setActive(link.title)
+                if (link.title === "Resume") {
+                  openResume()
+                  }
+                }
+              }
               >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
