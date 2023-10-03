@@ -4,7 +4,6 @@ import {styles} from '../styles';
 import {navLinks} from '../constants';
 import {logo, menu, close} from '../assets';
 import { GitHub, LinkedIn, Twitter } from '@mui/icons-material';
-
 import resume from '../assets/resume.pdf'
 
 const openResume = () => {
