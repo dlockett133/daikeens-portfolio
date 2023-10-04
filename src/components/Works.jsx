@@ -51,7 +51,7 @@ const ProjectCard = ({
         <div className='mt-5'>
           <h3 
             className='text-white font-bold text-[24px] cursor-pointer'
-            onClick={() => window.open(source_code_link, "_blank")}
+            onClick={() => window.open(deploy_link, "_blank")}
           >
             {name}
           </h3>
