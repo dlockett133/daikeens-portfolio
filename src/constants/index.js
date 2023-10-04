@@ -165,7 +165,7 @@ import {
       ],
       image: folx,
       source_code_link: "https://github.com/maxxAbow/Folx",
-      deploy_link: "https://folx-project-three.herokuapp.com/",
+      deploy_link: "https://folx-0ce3da1cc0e1.herokuapp.com/",
     },
     {
       name: "Weather Or Not",
