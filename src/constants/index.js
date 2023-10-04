@@ -187,7 +187,7 @@ import {
       ],
       image: weatherOrNot,
       source_code_link: "https://github.com/maxxAbow/weatherOrNot",
-      deploy_link: "https://diamonddougs.herokuapp.com/",
+      deploy_link: "https://weather-or-not-6e38d90f675b.herokuapp.com/",
     },
     {
       name: "Weather Mann",
