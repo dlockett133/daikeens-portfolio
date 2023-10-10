@@ -33,6 +33,7 @@ import portrait from "./portrait.jpg";
 import folx from "./folx.png";
 import weatherOrNot from "./weatherOrNot.png";
 import weatherMann from "./weatherMann.png";
+import marvel from "./marvel-encyclopedia.png";
 
 export {
   colorLogo,
@@ -63,6 +64,7 @@ export {
   folx,
   weatherOrNot,
   weatherMann,
+  marvel,
   react,
   game,
   portrait

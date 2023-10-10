@@ -21,6 +21,7 @@ import {
     folx,
     weatherOrNot,
     weatherMann,
+    marvel,
     threejs,
   } from "../assets";
   
@@ -190,26 +191,26 @@ import {
       deploy_link: "https://weather-or-not-6e38d90f675b.herokuapp.com/",
     },
     {
-      name: "Weather Mann",
+      name: "Marvel Encyclopedia",
       description:
-        "Have you ever been sitting at home studying on a rainy day and wished you had the perfect playlist? WeatherMann is here to match all your weather vibes. Think a Walkman for the weather! Upon visiting the page, type in the city of your choosing. This search will then result in displaying the current weather for your city as well as playing a songlist of warmer or winter tunes to coincide with the outdoor temperatures.",
+        "Here at the Marvel Encyclopedia, we're more than just a database. We're your passport to the Marvel Universe, your trusty sidekick on your quest for knowledge and adventure. Our user-friendly interface and lightning-fast search capabilities make discovering your favorite heroes a breeze. So, whether you're an avid Marvel fan or just getting started, join us on this thrilling journey through the pages of Marvel history. Unleash your inner superhero and explore the Marvel Encyclopedia today!",
       tags: [
         {
-          name: "html",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "spotify",
+          name: "RESTAPI",
           color: "green-text-gradient",
         },
         {
-          name: "OpenWeatherAPI",
+          name: "MarvelAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: weatherMann,
-      source_code_link: "https://github.com/MontineSproul/the-a-team",
-      deploy_link: "https://montinesproul.github.io/the-a-team/",
+      image: marvel,
+      source_code_link: "https://github.com/dlockett133/marvel-encyclopedia",
+      deploy_link: "https://dlockett133.github.io/marvel-encyclopedia/",
     },
   ];
   
